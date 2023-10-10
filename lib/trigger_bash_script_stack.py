@@ -47,6 +47,6 @@ class TriggerBashScriptStack(Stack):
                 ),
             ),
             environment={
-                "POSITIVE_APHORISM": "Do what you love and you'll never work a day in your life."
+                "POSITIVE_APHORISM": "Do what you love and you'll never work a day in your life.",
             },
         )
