@@ -1,0 +1,85 @@
+0 verbose cli /var/lang/bin/node /var/lang/bin/npm
+1 info using npm@9.8.1
+2 info using node@v18.18.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/var/lang/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/asset-input/asset-output/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/asset-input/asset-output/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 9ms
+17 timing npm:load:configload Completed in 9ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 2ms
+20 timing npm:load:mkdirplogs Completed in 2ms
+21 verbose title npm install owoify-cli
+22 verbose argv "install" "--prefix" "asset-output" "--cache" "asset-outputnpm_cache" "owoify-cli"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:/asset-input/asset-outputnpm_cache/_logs/2023-10-10T17_08_25_176Z-
+26 verbose logfile /asset-input/asset-outputnpm_cache/_logs/2023-10-10T17_08_25_176Z-debug-0.log
+27 timing npm:load:logFile Completed in 18ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 49ms
+31 timing config:load:flatten Completed in 0ms
+32 timing arborist:ctor Completed in 0ms
+33 silly logfile done cleaning log files
+34 timing arborist:ctor Completed in 0ms
+35 timing idealTree:init Completed in 16ms
+36 timing idealTree:userRequests Completed in 2ms
+37 silly idealTree buildDeps
+38 silly fetch manifest owoify-cli@*
+39 http fetch GET 200 https://registry.npmjs.org/npm 926ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/owoify-cli 1115ms (cache miss)
+41 silly placeDep ROOT owoify-cli@1.0.1 OK for:  want: *
+42 silly fetch manifest owoify-js@^1.0.7
+43 http fetch GET 200 https://registry.npmjs.org/owoify-js 528ms (cache miss)
+44 timing idealTree:#root Completed in 1653ms
+45 silly placeDep ROOT owoify-js@1.0.7 OK for: owoify-cli@1.0.1 want: ^1.0.7
+46 timing idealTree:node_modules/owoify-cli Completed in 2ms
+47 timing idealTree:node_modules/owoify-js Completed in 0ms
+48 timing idealTree:buildDeps Completed in 1657ms
+49 timing idealTree:fixDepFlags Completed in 1ms
+50 timing idealTree Completed in 1677ms
+51 timing reify:loadTrees Completed in 1677ms
+52 timing reify:diffTrees Completed in 0ms
+53 silly reify moves {}
+54 timing reify:retireShallow Completed in 1ms
+55 timing reify:createSparse Completed in 8ms
+56 timing reify:loadBundles Completed in 0ms
+57 silly tarball no local data for owoify-js@https://registry.npmjs.org/owoify-js/-/owoify-js-1.0.7.tgz. Extracting by manifest.
+58 silly tarball no local data for owoify-cli@https://registry.npmjs.org/owoify-cli/-/owoify-cli-1.0.1.tgz. Extracting by manifest.
+59 http fetch GET 200 https://registry.npmjs.org/owoify-cli/-/owoify-cli-1.0.1.tgz 160ms (cache miss)
+60 timing reifyNode:node_modules/owoify-cli Completed in 178ms
+61 http fetch GET 200 https://registry.npmjs.org/owoify-js/-/owoify-js-1.0.7.tgz 250ms (cache miss)
+62 timing reifyNode:node_modules/owoify-js Completed in 266ms
+63 timing reify:unpack Completed in 268ms
+64 timing reify:unretire Completed in 0ms
+65 timing build:queue Completed in 3ms
+66 timing build:link:node_modules/owoify-cli Completed in 19ms
+67 timing build:link Completed in 19ms
+68 timing build:deps Completed in 22ms
+69 timing build Completed in 23ms
+70 timing reify:build Completed in 24ms
+71 timing reify:trash Completed in 0ms
+72 timing reify:save Completed in 11ms
+73 timing reify Completed in 2034ms
+74 silly ADD node_modules/owoify-js
+75 silly ADD node_modules/owoify-cli
+76 timing command:install Completed in 2040ms
+77 notice
+77 notice New major version of npm available! 9.8.1 -> 10.2.0
+77 notice Changelog: <https://github.com/npm/cli/releases/tag/v10.2.0>
+77 notice Run `npm install -g npm@10.2.0` to update!
+77 notice
+78 verbose exit 0
+79 timing npm Completed in 2239ms
+80 info ok
