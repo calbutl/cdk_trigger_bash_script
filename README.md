@@ -3,6 +3,7 @@
 
 This is a very important CDK project.  Make sure to check your lambda logs after deploying.
 
+Jfyi - Docker running on Windows WSL has trouble doing the asset bundling the lambda function
 
 
 # Below here is just the standard CDK README
